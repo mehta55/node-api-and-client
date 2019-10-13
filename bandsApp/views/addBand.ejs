@@ -1,0 +1,68 @@
+<title>My Bands | Add Band </title>
+<% include ./partials/nav %>
+<div class="row mt-5">
+    <div class="col-md-6 m-auto">
+        <div class="card card-body">
+            <h1 class="text-center mb-3"><i class="far fa-plus-square"></i> Add Band </h1>
+            <% include ./partials/messages %>
+            <form action="/bands/band" method="POST" id="addBand">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" 
+                        placeholder="Enter Band's Name" 
+                        value="<%= typeof band != 'undefined' ? band.name : '' %>"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <input type="text" id="description" name="description" class="form-control"
+                        placeholder="Enter Band's Description" 
+                        value="<%= typeof band != 'undefined' ? band.description : '' %>"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="origin">Origin</label>
+                    <input type="text" id="origin" name="origin" class="form-control"
+                        placeholder="Enter Band's Origin" 
+                        value="<%= typeof band != 'undefined' ? band.origin : '' %>"/>
+                </div>
+                <div class="form-group">
+                    <label for="rating">Rating</label>
+                    <select name="rating" id="rating" class="form-control">
+                        <% if(typeof band == 'undefined' || band.rating == '') { %>
+                        <option value="" selected hidden>Rate your band</option>
+                        <% } else { %>
+                        <option value="<%= band.rating %>" selected disabled hidden> 
+                                <%= band.rating%>
+                        <% } %>        
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </form>
+
+            <div style="display: block ruby; margin-top: 4%">     
+                    <div >
+                        <form action="/bands" >
+                            <button type="submit" class="btn btn-info ">Back</button>
+                        </form>
+                    </div> 
+                    <div style="float: right; display: block ruby">
+                        <button type="submit" form="addBand" class="btn btn-primary ">Add</button>
+                    </div>
+            
+                </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+</div>
+</div>

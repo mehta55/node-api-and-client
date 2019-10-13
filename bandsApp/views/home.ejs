@@ -1,0 +1,24 @@
+<title>My Bands | Home </title>
+<% include ./partials/nav %>
+
+<br>
+<div class="list-group">
+
+  <% bands.forEach( (band) => { %>
+  <a href="bands/band/<%= band.bid %>" class="list-group-item list-group-item-action flex-column align-items-start ">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1"><%= band.name %></h5>
+
+      <h5>
+        <% for(var i=0; i<band.rating; i++) {%>
+        &#9733;
+        <% } %>
+      </h5>
+
+    </div>
+    <p class="mb-1"><%= band.description%></p>
+    <small><%= band.origin %></small>
+  </a>
+  <% }); %>
+
+</div>
