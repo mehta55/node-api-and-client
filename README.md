@@ -68,6 +68,18 @@
 
 ![Reset-password-screen](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/reset_pswd-screen.png)
 
+**Reset password - Wrong email input**
+
+![Reset-password-wrong-email-input-screen](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/resetpswd_wrong-email-input.png)
+
+**Reset password - Email not registered**
+
+![Reset-password-email-not-registered](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/resetpswd_not-registered.png)
+
+**Reset password - Incorrect OTP**
+
+![Reset-password-incorrect-otp](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/verify_otp_wrong-otp.png)
+
 **Reset password - Verify OTP scrren**
 
 ![verify-otp](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/verify_otp-screen.png)
