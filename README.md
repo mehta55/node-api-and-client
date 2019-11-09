@@ -41,56 +41,71 @@
 
 ![Register-screen](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/register.png)
 
+
 **Login screen**
 
 ![Login-screen](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/Login-screen.png)
+
 
 **Home screen**
 
 ![Home-screen](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/home.png)
 
+
 **Profile screen**
 
 ![Profile-screen](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/profile.png)
 
+
 **Add band screen**
+
 ![Add-band-screen](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/add_band.png)
+
 
 **Edit band screen**
 
 ![Edit-band-screen](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/edit_band.png)
 
+
 **Logout screen**
 
 ![Logout-screen](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/logout.png)
+
 
 **Reset password screen**
 
 ![Reset-password-screen](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/reset_pswd-screen.png)
 
+
 **Reset password - Wrong email input**
 
 ![Reset-password-wrong-email-input-screen](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/resetpswd_wrong-email-input.png)
+
 
 **Reset password - Email not registered**
 
 ![Reset-password-email-not-registered](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/resetpswd_not-registered.png)
 
-**Reset password - Incorrect OTP**
-
-![Reset-password-incorrect-otp](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/verify_otp_wrong-otp.png)
 
 **Reset password - Verify OTP scrren**
 
 ![verify-otp](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/verify_otp-screen.png)
 
+
 **Emailed OTP screen**
 
 ![email-otp](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/email_otp.png)
 
+
+**Reset password - Incorrect OTP**
+
+![Reset-password-incorrect-otp](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/verify_otp_wrong-otp.png)
+
+
 **Reset password - OTP Verified screen**
 
 ![otp-verified](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/otp_verified.png)
+
 
 **Reset password - success**
 
