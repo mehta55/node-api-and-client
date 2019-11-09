@@ -3,11 +3,12 @@
  
  Author : Sahil Mehta
  
- **BandsAPI :** 
+ # BandsAPI
 - A separate API used for all CRUD operation on User and their Bands.
 - Sequelize ORM is used for manipulating data in database.
 - MySQL Database used to store User and Bands data.
 - URLs for API are:
+
      - **GET:** 
          - `/api/users/user/:uid` -> Get user profile
          - `/api/users/:uid/bands` -> Get all bands of user
@@ -25,7 +26,7 @@
      - **DELETE:** 
          - `/api/users/:uid/bands/band/:bid` -> Deletes specific band of user 
 
-**BandsAPP :**
+# BandsAPP :
 - Application that manages users and their bands.
 - Consumes BandsAPI.
 - Encrypts password using bcrypt package.
@@ -34,7 +35,7 @@
 - Uses node-fetch to consume API.
 - All views are powered by ejs(Embedded JavaScript).
 
-**Views :**
+ # Views :
 
 Register screen:
 ![Register-screen](https://raw.githubusercontent.com/mehta55/node-api-and-client/master/screenshots/register.png)
